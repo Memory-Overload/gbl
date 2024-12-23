@@ -1,4 +1,5 @@
 # Prologue
+
 **Second Lunar Disappearance, 12 CE | Somewhere on the outskirts of the Left Hand**
 
 Tonight, it was Jara's turn to keep watch as the others slept.

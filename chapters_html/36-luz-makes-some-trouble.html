@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="MemoryOverload" />
+  <title>Luz Makes Some Trouble</title>
+  <style>
+    div.sitenav { display: flex; flex-direction: row; flex-wrap: wrap; }
+    span.navlink { flex: 1; }
+    span.navlink-label { display: inline-block; min-width: 4em; }
+    html {
+      font-size: 11pt;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<nav id="sitenav">
+<div class="sitenav">
+<span class="navlink">
+<span class="navlink-label">Up:</span> <a href="index.html" accesskey="u" rel="up">The Good Basilisk Luzura</a>
+</span>
+<span class="navlink">
+<span class="navlink-label">Top:</span> <a href="index.html" accesskey="t" rel="top">The Good Basilisk Luzura</a>
+</span>
+</div>
+<div class="sitenav">
+<span class="navlink">
+<span class="navlink-label">Next:</span> <a href="37-luz-communes-with-the-dead.html" accesskey="n" rel="next">Luz Communes With The Dead</a>
+</span>
+<span class="navlink">
+<span class="navlink-label">Previous:</span> <a href="35-luz-experiences-the-epic-highs-and-lows-of-hexside.html" accesskey="p" rel="previous">Luz Experiences the Epic Highs and Lows of Hexside</a>
+</span>
+</div>
+</nav>
+<h1 data-number="36" id="luz-makes-some-trouble">Luz Makes Some
+Trouble</h1>
+<p><strong>Gehetag 3, Sixth Lunar Disappearance, 50 CE | Hexside School
+of Magic and Demonics</strong></p>
+<p>As Luz stared at the spell circle pointed in her face, she fought the
+urge to consume the spell. (Blowing her cover on her first day of school
+would <em>not</em> be cool.) Thankfully, the student dispelled the
+circle before Luz could gobble it up.</p>
+<p>“Nah, I’m just kidding. I’m Viney!” The newly dubbed Viney offered a
+handshake, which Luz slowly accepted. As Viney withdrew her hand, Luz
+noticed that her sleeves were a shade of gray that Luz hadn’t seen
+before.</p>
+<p>“Nice to meet you,” Luz responded. “If you don’t mind me asking,
+what’s with the gray sleeves?”</p>
+<p>“Oh, these things?” Viney said, turning her arms this way and that,
+showing them off to Luz. “They mean that I’m stuck in the Detention
+Track.”</p>
+<p>“The Detention… Track?” That was certainly new to Luz.</p>
+<p>“Bump created it because the Detention Pit is still getting repaired.
+He wanted to keep all of us troublemakers wrangled in one spot so he
+stuck us all in an old classroom and called it the Detention Track,”
+Viney explained.</p>
+<p>Rubbing at the back of her neck, Luz knew why the Pit was under
+repair. “I might have had something to do with the Pit breaking.”</p>
+<p>Viney gasped. “No way! That was you?!”</p>
+<p>“Yeah,” the basilisk responded, sucking in a breath through clenched
+teeth. “There was a Human Appreciation Society meeting, a rock going
+through a window, lots of stuff. It was this whole ordeal.”</p>
+<p>“Well, I don’t know how you did it,” Viney said with a smile, “but
+thanks for breaking the Pit. It’s made detention way more fun.”</p>
+<p>“You’re welcome?” Luz replied slowly, more of a question than a
+statement. Viney was <em>happy</em> to be in detention? Why was
+that?</p>
+<p>“Follow me, I want you to meet the rest of the crew,” Viney said,
+grabbing Luz’s arm and dragging the basilisk along before she could
+argue. Eventually, the two stopped at the end of the hallway, the
+corridor opening to a spiral that led all the way up to the ceiling.
+Doors and platforms of all sorts of styles were scattered about randomly
+along the… tower? Where was this place, actually? Was it some kind of
+pocket dimension inside Hexside? That was probably a question to ask Eda
+when Luz got back to the Owl House after the school day ended.</p>
+<p>As Luz admired the architecture, Viney called out to her fellow
+Detention Track students. “Oi! Jerbo, Barcus! Come on out!”</p>
+<p>From behind a door above Luz, two figures appeared: one being a lanky
+male witch with pale skin and short, unkempt brown hair, the other being
+a… dog wearing a Hexside uniform?</p>
+<p>“How do we know she won’t rat us out to Bump?” the lanky student
+said. (Luz was pretty sure that was Jerbo, because the dog student being
+named Barcus made way too much sense based on everything she had learned
+about the Isles.)</p>
+<p>“She’s cool, Jerbo,” Viney responded. “Luz here is actually the one
+who broke the Detention Pit in the first place.”</p>
+<p>Jerbo’s eyes grew wide. “Woah, really? In that case, there’s no doubt
+you belong with us troublemakers. Welcome to the Detention Track,
+Luz.”</p>
+<p>“Slow your roll, Jerbo,” Viney interjected, holding up a hand to tell
+him to pause. “We need a total consensus before we let her in. What do
+you say, Barcus?”</p>
+<p><strong><em>&lt;If she has already proven herself a troublemaker,
+then I say we let her stay,&gt;</em></strong> Barcus woofed. Luz swore
+that she could actually hear actual intelligible sound underneath the
+growls and yips.The best way she could describe how it sounded was that
+it was like she was listening to music and had two songs going at once,
+the audio overlapping, but still being able to pick out the lyrics from
+both songs.</p>
+<p>“She’s in,” Jerbo translated for Viney.</p>
+<p><strong><em>&lt;Plus, her aura is interesting. Strong, yet also
+silly, like a baby’s laughter,&gt;</em></strong> the dog demon
+added.</p>
+<p>“Aww, thanks. Strong and silly is totally my kind of vibe,” Luz said
+before Jerbo could translate.</p>
+<p>Viney slowly turned to Luz, a shocked expression on her face. “Hold
+up, you can understand Barcus?”</p>
+<p>“Yeah. Can you not?” Luz hoped that she hadn’t just accidentally
+something a little too basilisk-y.</p>
+<p>“No,” Viney answered, drawing out the syllable. “Jerbo can, though,
+but that’s only because his great-great-great grandpa was a centaur. You
+sure you don’t have any demon blood in ya by chance?”</p>
+<p>“Maybe? I’m not a huge genealogy buff,” Luz offered as an answer. She
+wasn’t necessarily lying, as she was part demon, after all.</p>
+<p>“Well aren’t you full of mysteries, then,” Viney said in a chipper
+tone. “I would say ‘Welcome to the Detention Track,’ but given that
+you’re not actually in detention that won’t work. In that case, welcome
+to the… uhh… Troublemaker Troupe.”</p>
+<p>Luz laughed. “That’s got a nice ring to it. Say, how did you guys get
+in detention anyway? I doubt they’d throw you in here for, like, liking
+school too much.”</p>
+<p>“No, that’s pretty much exactly what happened,” Viney responded with
+a shrug of her shoulders.</p>
+<p>“Wait, what? How does that make any sense?” Luz was confused to say
+the least.</p>
+<p>“We all got busted for trying to mix different tracks of magic,”
+Viney explained with a harrumph.</p>
+<p>That came as a surprise to Luz. “I mean, I know that there’s the
+whole ‘One witch, one coven’ thing, but I didn’t think Bump would
+actually enforce it so harshly at Hexside. What tracks were you
+combining to piss him off so much, anyway?”</p>
+<p>“Well, I thought that mixing Beast Keeping and Healing would be a
+good idea,” Viney started. “I had Puddles, my pet griffin, help out with
+injured students in the Healing track. He’d help calm people down, offer
+treats to the younger kids, that kinda stuff. When Bump caught wind of
+that, though, he threw me in here and said that ‘wild animals cause more
+harm than good’. Except Puddles isn’t even wild! He’s only clawed my
+face four times in the past month, which is super low for him.”</p>
+<p>That last statement concerned Luz. “How many times does Puddles
+normally claw your face?”</p>
+<p>Viney thought about it for a while before responding. “Usually like…
+9 or 10 times a month. He’s an absolute angel, though.”</p>
+<p>“Sure…” Luz said slowly. “What about you, Jerbo? How’d you end up
+trapped here?”</p>
+<p>“I wanted to combine Abominations and Plant magic,” Jerbo said. “Bump
+didn’t like that either. Apparently it’s fine for a regular Abomination
+to leave goopy footprints all over the place, but the second a
+plant-based Abomination starts tracking mud in the classroom, everyone
+loses their minds. It’s a double standard, I’m telling you!”</p>
+<p>Barcus was the last of the crew to explain how he’d ended up in
+detention. <strong>&lt;<em>I faced similar backlash to Jerbo when trying
+to blend Potions and Oracle magic together. Everything was going well
+until I made a teacher resign and that was when Bump had to step in. I
+had concocted a brew that was supposed to tell the winning lotto
+numbers, but what it actually ended up doing was predicting that the
+teacher would die within the week. Given, she did look at a painbow and
+have her body turned inside out, so at least my prediction was
+accurate.&gt;</em></strong></p>
+<p>Luz hoped that last part was a joke, but knowing the Isles it
+probably wasn’t.</p>
+<p>“When we first found this place, we didn’t know what exactly to make
+of it,” Viney started, walking over to a door. “But when we realized
+that all these doors could take us anywhere in the school, we knew what
+we had to do.”</p>
+<p>“And what’s that?” Luz asked, not entirely sure where Viney was going
+with this.</p>
+<p>“Well, Bump didn’t like it when we studied multiple tracks of magic,
+right? So what if we used this room to study <em>all</em> the tracks?”
+Viney explained.</p>
+<p>“So, you feel up for exploring beyond just Beast Keeping magic?”
+Viney asked with a grin.</p>
+<p>“Heck yeah, let’s do it!” Luz responded with a fist pump.</p>
+<p>Peeking through the door closest to her, Luz saw into a classroom.
+This door gave her a birds-eye view of the room, and based on all the
+cauldrons and alchemical ingredients, this was most likely where a
+potions track class was held. Most of the seats were already filled in,
+and the teacher was standing at the front of the room, a potion held in
+each hand.</p>
+<p>As Luz watched on, the teacher began to speak. “Alright, everyone’s
+here, so I think we can start a few minutes early. Today we will be
+working on…” The teacher then threw down the potions, causing a cloud of
+smoke to appear and surround them. “Smoke bombs!”</p>
+<p><strong>&lt;Mrs. Lulamoon always has a flair for the
+dramatic,&gt;</strong> Barcus told Luz.</p>
+<p>“I’ll always appreciate a teacher who knows how to have fun with what
+they teach,” Luz replied, nodding in approval.</p>
+<p>Another door caught Luz’s attention. “Ooh, hello. Where does this one
+lead?<em>”</em> She thought aloud. Not waiting for an answer from the
+other troublemakers, Luz opened the door and peeked in.</p>
+<hr />
+<p>Amity paced back and forth in the halls of Hexside. Sure, class was
+starting in a few minutes and her next class was on the other side of
+the school, but that wasn’t important right now. What <em>was</em>
+important right now was Amity figuring out how to deal with The Luz
+Problem.</p>
+<p>The two had only known each other for what? A month, if that? Despite
+that, Luz was willing to face down a fully grown slitherbeast to protect
+Amity, and Luz <em>won the fight</em>. Yet the second the dust (or
+rather, the snow) had settled, she had just gone back to her normal,
+peppy self like she hadn’t just saved Amity’s life. Seeing Luz, brave,
+stupid, <del>cute</del> Luz, stand up for her made her feel… things.
+Things that Amity had never felt before. What really solidified those
+weird new feelings, though, was when Luz had gone searching through the
+giant snowbank just to find that silly little flower. Something about
+seeing the girl running around, covered head to toe in snow with the
+stupidest, cutest, most determined smile on her face really did
+something for Amity.</p>
+<p>There was no way Luz hadn’t noticed how Amity had practically turned
+red as a bloodfruit back on the Knee, and now the young Blight had no
+idea how to deal with that fact. When Luz had arrived earlier today,
+Amity had just run off before the basilisk could see her. Unfortunately,
+bolting whenever Luz got near her wasn’t a very feasible plan, so she’d
+need to come up with something better.</p>
+<p>Maybe she could just play it off like nothing happened? Then again,
+gaslighting her friend/crush/acquaintance seemed like a cruel thing to
+do, so that was off the table as well. Besides, from how the two had
+interacted before, it wasn’t like Luz was completely oblivious to
+everything that happened around her. The girl was smarter than people
+gave her credit for, and if Amity started lying straight to her face
+then she’d probably end up getting immediately called out on her
+chicanery.</p>
+<p>Unbeknownst to the young Blight, a door had opened in the ceiling
+above her.</p>
+<p>Placing her back against a locker and sliding down until she was
+seated on the stone floor, Amity had no idea what to do. Burying her
+head in her hands, she let out a muffled groan. “Gah, this is all so
+confusing!”</p>
+<p>The door closed quietly, leaving Amity alone to her thoughts.</p>
+<hr />
+<p>Luz probably wasn’t supposed to see that, but she couldn’t help but
+wonder what Amity was looking so down in the dumps about. Plus, wasn’t
+she supposed to be in class by now?</p>
+<p>Wait…</p>
+<p>Luz was also supposed to be in class, yet here she was messing around
+in Eda’s shortcut room. Checking her phone, Luz saw that class was going
+to start in just five minutes! Picking a door at random, Luz threw it
+open and started running as fast as her legs could carry her.</p>
+<p>As she sprinted through the halls, Luz hoped that she’d only be a few
+minutes late to class. Why did her classroom have to be all the way out
+in the fields of all places? Even though there was pretty much no way
+she was actually going to make it on time, the less late she was to
+class, the better.</p>
+<p>Rounding a corner, Luz plowed straight into Principal Bump, knocking
+the both of them to the floor. Scrambling to get to her feet, she began
+apologizing profusely. “Oh my Titan. I am so sorry, Principal Bump.”</p>
+<p>Grabbing onto a nearby locker to pull himself up, Bump dusted his
+robe off before looking down at the young basilisk. “What are you in
+such a rush for, Miss Noceda?”</p>
+<p><em>Quick, make up a cover story!</em> Luz’s brain shouted at her.
+“Would you believe me If I said I got lost?”</p>
+<p>“Normally, I would. One can easily get caught up in the twists and
+turns of these halls.” Bump waited a bit before continuing. “However,
+given that the class you should be in right now is <em>outside</em> the
+school, I feel it would be much harder to miss the giant gaggle of
+students crowded together.”</p>
+<p>“Rats, I thought that would work,” Luz said to herself.</p>
+<p>“I wasn’t born yesterday, Miss Noceda,” the principal replied. “Now,
+hurry along, but no running.”</p>
+<p>Nodding in affirmation, Luz speedwalked to her next class.</p>
+<hr />
+<p>Bump waited for the Inspector to show. She was supposed to be here at
+10:00 sharp, yet it was 10:06 and there was no sign of her. For all the
+previous inspections, she had been prompt in her arrival, so the sudden
+tardiness was more than a little suspect. Tapping his foot impatiently,
+Bump decided to give the Inspector a few more minutes to show. Perhaps
+she was dealing with more pressing issues? That would make sense. Bump
+doubted that he could be on time for 20 years straight though, so he
+supposed that some slack was warranted. On the other hand, though, if he
+had set up the Paranoratorium just for the Inspector to never show, then
+he would be mighty peeved.</p>
+<p>After even more waiting, the principal moved to re-enter his school,
+only for the Inspector to finally make their grand entrance just as
+Bump’s hand grazed the door handle. As she stepped out of the swirling
+mass of blue magic, the Inspector bowed.</p>
+<p>“Welcome to Hexside, Inspector,” Bump greeted the official, walking
+back down the steps to accompany her inside his school.</p>
+<p>“Greetings, Headmaster,” the Inspector replied. Bump thought that
+was… odd. She had always referred to him by his given name before, so
+why the sudden change?</p>
+<p>“If your school is up to standards,” the Inspector continued, “then
+the Emperor’s Coven will graciously continue its funding. If you don’t
+meet our standard, though…”</p>
+<p>Bump noticed the implied threat. Forcing a smile, he held the door
+for the Inspector as they both entered the school proper. Once he was
+behind her, though, Bump’s smile fell. Strange things were afoot at
+Hexside.</p>
+<hr />
+<p>Number One found Hexside quite intriguing. Not because of any of the
+tasty morsels running about, though. Those things were a snail-bit a
+dozen, and she’d already had her fill at Glandus just a few hours prior.
+There was something else, or rather, some<em>one</em> else. A familiar
+scent clung to the walls of this school. The scent of her kind. One of
+the students here was not who they claimed to be, and based on how
+strong the scent was, they were likely still here in the school.</p>
+<p>“Pardon the abruptness, Headmaster, but would it be okay if I was to
+sit in on a class before we go through with the presentation?” Number
+One inquired.</p>
+<p>“I don’t see why not,” the principal responded, though Number One
+sensed the hesitation in his voice.</p>
+<p>“Splendid,” Number One said.</p>
+<p>Closing her eyes, she stilled her mind and focused on sensing if any
+of her kin were close. She’d had the ability to track the location of
+other nearby basilisks as far back as she could remember. Three and Four
+had said that it was some type of mutation and that it “invaded their
+privacy” whenever she used it. Two, conversely, claimed her ability was
+a gift from the Titan so that she could always find her family.</p>
+<p>Oh, Two, you naive fool. He was far too trusting of the witches that
+had kept him in shackles. The second they put on a veneer of actually
+caring for him, he latched onto the idea that there was some good in
+those despicable creatures. What a surprise he was in for when the same
+witches he thought to be his friends would render him nothing more than
+a charred corpse when he tried to escape.</p>
+<p>When Number One felt a mind respond to her search, she opened her
+eyes and smiled. “I think I’ll join one of the classes out in the
+fields. I feel some fresh air would do me some good.”</p>
+<p>“Do you need directions, Inspector?” Number One didn’t miss how the
+principal was shifting on his heels.</p>
+<p>“No, thank you. I can find my way by myself. You can return to your
+duties for now,” Number One said, shooing the man away. It was high time
+she finally met up with another one of her kind after all this time.
+With a determined gait, she set off for the fields.</p>
+<hr />
+<p>So far, Caring for Mythical Creatures had been way more interesting
+than the one with Ms. Nascimento. If Mr. Livingstone had noticed that
+Luz had arrived late, he didn’t make a big fuss about it, so that was a
+win in Luz’s book. Just when the lesson was getting good, though,
+Principal Bump came over to the students and cleared his throat to get
+everyone’s attention.</p>
+<p>“One second, class,” Mr. Livingstone said, before he and Bump walked
+off to talk in private.</p>
+<p>Luz wasn’t quite sure what Bump would have to talk with the teacher
+for, but based on the way that Bump was repeatedly pointing at Luz, it
+was probably about her. Eventually, the conversation came to an end.
+Mr. Livingstone returned to his students, resuming his lesson on how to
+identify and treat different types of necrotic infections, while Bump
+pulled Luz away from the group.</p>
+<p>“Follow me,” he said, and Luz followed. As the two got further and
+further from Hexside, Luz was starting to question why Bump had taken
+her out of class. Was she in trouble for something? Had he figured out
+about her meeting the kids from the Detention Track, or was it something
+else?</p>
+<p>“So, are you gonna tell me why we’re walking into the middle of
+nowhere?” Luz finally settled on asking, breaking the silence.</p>
+<p>Bump surveyed the area around the two of them. Deciding that they
+were now sufficiently far away from everyone else, the principal
+motioned for Luz to stop. Then, the principal suddenly wrapped Luz in a
+hug, causing the young girl to falter as she tried to figure out what
+was going on.</p>
+<p>“Five, I can’t believe I finally found you,” Not-Bump said, releasing
+the hug. “How long have you been hiding as a student here? Have you seen
+Three or Four since the breakout? Last I saw, they were busy dragging
+Two to safety.”</p>
+<p>“Today is literally my first day here, and no, I haven’t found Three
+or Four yet.” The lie slipped off Luz’s tongue smoothly. She had a
+feeling that it would be better if the other basilisk, Number One,
+presumably, didn’t know about Tre and Ivy staying with the Bat
+Queen.</p>
+<p>“Well, at least we’ve found each other,” Number One said. “Tell me,
+when was the last time you’ve fed?”</p>
+<p>“Just the other day, actually. I’ve worked my way into the family of
+a powerful witch and have slowly been siphoning magic from her,” Luz
+replied, further entrenching herself in a web of lies.</p>
+<p>The other basilisk nodded and smiled. “Well aren’t you a fiendish
+little creature. I knew you would come to reason eventually. Those
+vermin touting themselves as the chosen of the Titan deserve nothing
+more than to have their very essence drained from them as they writhe in
+agony.”</p>
+<p>That solidified it for Luz: Number One was off her rocker in the
+worst kind of way.</p>
+<p>“Before I found you, I was going to raze this institution by myself,”
+Number One continued, “but now that I know you are here as well, we can
+divide and conquer. Return to your class and act as if nothing is out of
+the ordinary. When those snotty little witchlings have finished their
+presentation, I will strike out at the headmaster. Once those miscreants
+start running about, that is when you shall shed your disguise and join
+me. Together, we shall have our revenge!”</p>
+<p>Before Luz could even respond to Number One’s mad ramblings, the
+greater basilisk had already assumed the form of the Inspector. “Now, if
+you will excuse me, I have a presentation to sit through.”</p>
+<hr />
+<p>“Principal Bump! Principal Bump! Principal Bump!” Luz yelled as she
+ran into the witch’s office..</p>
+<p>Bump looked up from his desk. “Yes, Miss Noceda?”</p>
+<p>Not stopping to catch her breath, Luz began relaying her message as
+fast as she could. “The inspector lady! She’s actually the basilisk that
+attacked Glandus, and she’s gonna —”</p>
+<p>“Attack Hexside as well. Yes, I’ve already figured that out,” Bump
+finished for her.</p>
+<p>“Oh,” Luz said bluntly.</p>
+<p>“I’m not stupid, Miss Noceda,” her principal said. “Now, if you’ll
+excuse me, I need to finish locking down the school before the impostor
+realizes that the Paranoratorium is completely empty.”</p>
+<p>Walking over to a blank section on the wall, Bump cast a spell circle
+before slamming his palms against the wall. A series of runes and
+symbols emanated from his hands as the school’s defense system
+activated, causing familiar red wards to appear from every archway and
+cover every door.</p>
+<p>“There,” Bump said with finality. “The intruder is now locked inside
+the Paranoratorium and she can’t hurt anyone.”</p>
+<p>Luz was a little apprehensive to start celebrating, though. “Okay,
+but now what are we gonna do? It’s not like we can just leave her in
+there so that she’ll slowly starve to death! That would be
+inhumane!”</p>
+<p>Bump paused to think about that. “Yes, I suppose we are in quite the
+predicament.” He then turned the question on Luz. “Given that we are
+dealing with one of your kind, what do you suggest we do?”</p>
+<p>“Well, we’re definitely not going to <em>Stanley Galaxy</em> her,”
+Luz responded. “Trying to reform a bad guy through the power of love and
+forgiveness doesn’t work when the bad guy is hell bent on consuming
+everyone’s magic. I doubt the promise of ‘good vibes and friendship’ can
+make her change her mind. Although, there are other ways we can solve
+this problem. More… physical ways.”</p>
+<p>“Are you suggesting that we try to fight the intruder head on?” Bump
+asked.</p>
+<p>“Not exactly,” Luz replied with a mischievous grin, “but trust me.
+I’ve got a plan.”</p>
+</body>
+</html>

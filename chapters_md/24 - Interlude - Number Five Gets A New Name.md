@@ -1,4 +1,5 @@
 # Interlude: Number Five Gets A New Name
+
 **Monday, June 14, 2021 | Reality Check Summer Camp | Hoboken, New Jersey**
 
 Number Five awoke with a groan as Masha’s 7:30 alarm blared at full volume. The song it played was apparently an “absolute classic” from some band called Ram Stone, or something like that, and Masha had set it to wake themselves (and everyone else in Cabin 7\) up on Mondays. Five thought that the mix of the whistling and the heavy guitars was an interesting concept, but it worked well. Given, she couldn’t understand any of the lyrics, with them being in some foreign language, but the overall sound was pleasing to her ears.

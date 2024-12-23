@@ -11,7 +11,7 @@ toc: true # adds Table of Contents
 numbersections: true # chapter header will say "Chapter 1" "Chapter 2" etc.
 ---
 
-# Prologue {-}
+# Prologue
 
 **Second Lunar Disappearance, 12 CE | Somewhere on the outskirts of the Left Hand**
 
@@ -4388,7 +4388,7 @@ Luz took a deep breath and slowly exhaled before answering. “I feel like a who
 
 “Look, Mom. I finally shed my pajamas.”
 
-# Interlude: Number Five Gets A New Name {-}
+# Interlude: Number Five Gets A New Name
 
 **Monday, June 14, 2021 | Reality Check Summer Camp | Hoboken, New Jersey**
 
