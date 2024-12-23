@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="MemoryOverload" />
+  <title>Luz Embraces the Elements</title>
+  <style>
+    div.sitenav { display: flex; flex-direction: row; flex-wrap: wrap; }
+    span.navlink { flex: 1; }
+    span.navlink-label { display: inline-block; min-width: 4em; }
+    html {
+      font-size: 11pt;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<nav id="sitenav">
+<div class="sitenav">
+<span class="navlink">
+<span class="navlink-label">Up:</span> <a href="index.html" accesskey="u" rel="up">The Good Basilisk Luzura</a>
+</span>
+<span class="navlink">
+<span class="navlink-label">Top:</span> <a href="index.html" accesskey="t" rel="top">The Good Basilisk Luzura</a>
+</span>
+</div>
+<div class="sitenav">
+<span class="navlink">
+<span class="navlink-label">Next:</span> <a href="33-luz-experiences-the-epic-highs-and-lows-of-hexside.html" accesskey="n" rel="next">Luz Experiences the Epic Highs and Lows of Hexside</a>
+</span>
+<span class="navlink">
+<span class="navlink-label">Previous:</span> <a href="31-luz-starts-her-writing-career.html" accesskey="p" rel="previous">Luz Starts Her Writing Career</a>
+</span>
+</div>
+</nav>
+<h1 data-number="32" id="luz-embraces-the-elements">Luz Embraces the
+Elements</h1>
+<p><strong>Schlimmtag 2, Sixth Lunar Disappearance, 50 CE | The Owl
+House</strong></p>
+<p>Leaning back from the typewriter, Luz flexed her fingers to get some
+feeling back in them. She really wished that she had packed her laptop
+in her backpack when she’d crossed over into the Isles. Why? Because
+whenever she’d make a typo, she’d have to grab some White-Out, paint
+over the mistake, and then wait for it to dry before spelling the word
+correctly. In her opinion, that took way too much time when she could
+have been spending it making the story even better. Still, though, it
+was super fun to actually get into the groove while writing about Luzura
+and Oraios dressing up in all sorts of cute outfits and traveling
+together, visiting tons of cool places that definitely weren’t modeled
+after places in Gravesfield.</p>
+<p>All told, the story - tentatively titled “Chasing Rainbows” - stood 9
+pages long, and it had taken shape through the combined power of Luz and
+Amity’s incessant nerd-dom. Luz could count at least 17 different Good
+Witch Azura references that she had snuck into the manuscript. Ranging
+from surface level nods, like mentioning The Sandwich, to deeper cuts,
+such as a suspiciously named side character running over trash cans with
+a truck, anybody who was as obsessed with GWA as Luz was would pick them
+up easily.</p>
+<p>The story wasn’t all Luz, though, as she and Amity would switch off
+on who was writing every time there was a new scene or a change in the
+point of view. It was a pretty good system in Luz’s opinion, giving both
+of them a chance to read over what was being typed out. It was
+especially helpful to make sure that everything was getting explained in
+enough detail. From Luz’s experience of writing GWA fanfics, she knew
+how important it was to have someone else check over your work to make
+sure there wasn’t anything missing.</p>
+<p>Removing the final page from the mouth of the typewriter, Luz stacked
+the paper together and tapped them on her desk to straighten them out.
+“And we… are… done!” Laying back in her chair, the basilisk took in a
+few deep breaths.</p>
+<p>Hopping off Luz’s bed, Amity picked up the stack of papers and slowly
+flipped through them. “Wow, I can’t believe we got the entire thing
+finished in one sitting.”</p>
+<p>“Yeah,” Luz replied. “And my fingers only hurt a little bit!”</p>
+<p>Pulling out her scroll, Amity checked the time. Yup, just as she had
+suspected: the library had already been locked up for over an hour by
+now. “Dang, they’ve already closed up for the night.”</p>
+<p>Luz pouted at the news. “Well, drat. We can turn it in tomorrow,
+though. Plus, it’ll give us more time to look it over and make sure it’s
+the best story it can be.”</p>
+<p>“That’s a good way to look at it,” Amity said before a buzz from her
+scroll drew her attention. Checking the notification, she saw that Edric
+had sent her a few messages in quick succession.</p>
+<p><strong>bestBlight:</strong> yo have you packed for the trip to the
+Knee tomorrow</p>
+<p><strong>bestBlight</strong>: em and I already got our stuff
+together</p>
+<p><strong>bestBlight</strong>: mom says you gotta do good on the
+presentation “or else”</p>
+<p><strong>bestBlight</strong>: also dad isn’t coming</p>
+<p>Amity groaned. She’d completely forgotten that she was supposed to go
+to the Knee with Ed and Em to train for her part in the presentation.
+Each of the nine tracks had picked a representative to show off their
+skills for an inspector from the Emperor’s Coven, and Amity had been
+chosen and the representative from the Abomination trick. What made the
+trip to the Knee worse than normal was that dad wasn’t even going to be
+there. Since he was on par with Head Witch Deamonne in terms of
+knowledge about Abomination magic, her father would probably have given
+her some highly-detailed lecture about how to make the Abomination bend
+to her will. Given, that would only happen if he could find the time to
+actually care about his children more than his inventions, and Amity
+knew that was rarer than finding a fairy that didn’t have a taste for
+flesh.</p>
+<p>Noticing Amity’s dour look, Luz frowned. “What’s got you down in the
+dumps all of a sudden?”</p>
+<p>The witch sighed before fully responding. “I’ve got to go to the Knee
+tomorrow to train with Ed and Em. I was chosen to represent the
+Abomination track for Hexside’s annual Emperor’s Coven inspection next
+week, and Mother will be… not happy if the presentation goes
+poorly.”</p>
+<p>Luz inhaled sharply. “Dang, that sucks.”</p>
+<p>“Tell me about it,” Amity responded, flopping onto Luz’s bed and
+spreading her arms out, draping them over the bed frame.</p>
+<p>“Well, would it be less sucky if I was there, training with you?” Luz
+offered.</p>
+<p>“Yeah, that’d make it more bearable,” Amity responded, “but you’d
+probably get bored just watching me do the same spells over and over.
+What would you even be training for?”</p>
+<p>“The placement exam at Hexside,” Luz said. “Eda told me about the two
+spell requirement, and we’re pretty sure glyphs will count for it.”</p>
+<p>Propping herself up on her elbows, Amity met Luz’s eyes. “Wait…
+You’re going to Hexside?!”</p>
+<p>“Yep,” the basilisk answered. “Did I not tell you?”</p>
+<p>“No! That’s awesome, Luz!” Amity was amazed that Luz had kept this
+great news from her. “Do you know what track you’re going to join?”</p>
+<p>“Right now, I’m leaning towards Beast Keeping,” Luz responded.</p>
+<p>“Oh, really? I thought you would take after Eda and go down the
+Potions track,” Amity said.</p>
+<p>“I’ve considered Potions,” Luz started, “but I feel like Beast
+Keeping would be a better fit for me. My mom is a veterinarian, after
+all, so I’d be sorta following in her footsteps.”</p>
+<p>“What’s a ‘veterinarian’?” Amity asked.</p>
+<p>“Oh, right, that’s a Human Realm thing,” Luz said. “A veterinarian is
+kinda like a mix of Beast Keeping and Healing. Mami specializes in pets,
+so dogs, cats, snakes, things like that.”</p>
+<p>“Huh, that’s interesting,” Amity replied. “I’ve never considered
+mixing types of magic like that.”</p>
+<p>“Yeah, well us humans don’t have magic, so we make do with
+technology,” Luz explained.</p>
+<p>“I’ve heard Gus talk about human technology a lot,” Amity said. “Is
+it true that you guys actually have giant metal birds that can fly you
+around?”</p>
+<p>“Ahh, those are airplanes,” Luz recognized what Amity was talking
+about after a second. “Yeah those are pretty common in the Human Realm
+because of how spread out we all are.”</p>
+<p>“Wait, ‘spread out’?” Amity was confused. “Do humans not all share
+the same Titan?”</p>
+<p>“No…” Luz replied slowly. “We’ve got continents, though, and I guess
+those are kinda like Titans. Well, except for the fact that they’re just
+giant chunks of Earth’s crust floating on the mantle.”</p>
+<p>“The Human Realm sounds weird,” Amity said. “Nice, but weird.”</p>
+<p>“Well maybe it won’t be so weird once I show you around,” Luz
+responded. “I know some cool hangout spots.” (That was a lie, but Amity
+didn’t need to know that Luz was a friendless loser back in the Human
+Realm.)</p>
+<p>“I’d like that” Amity mentioned.</p>
+<p>“I think I would, too.”</p>
+<hr />
+<p>Slamming the door to her office shut, Lilith threw off her cloak,
+letting it pool up on the floor. Burying her head in her hands, she let
+out a muffled scream. How her sister was turning a blind eye to the fact
+that she was living with an indubitably blood-thirsty (and most likely
+magic-hungry) monster, Lilith wasn’t sure. The beast had somehow
+convinced Edalyn and her former protégé that it meant them no harm.</p>
+<p>But what if they were telling the truth? When Lilith had been
+training under Flora D’splora in her early days of the Emperor’s Coven,
+Ms. D’splora had drilled into the impressionable young Lilith that the
+historical record can never be blindly trusted. Falsities and
+half-truths could easily be passed off as gospel if it was backed well
+enough, so perhaps she was wrong about basilisks.</p>
+<p>That was a train of thought for another time, though. Right now, all
+Lilith wanted to do was to retire for the night. After she had changed
+out of her uniform and into more casual attire, Lilith began mindlessly
+flipping through channels on the CB. After a few minutes of a whole lot
+of nothing, she gave up on that plan and decided that she might as well
+put a dent into the mountain of paperwork clogging her desk that she’d
+been ignoring for the past few days.</p>
+<p>The monotony of filing papers was one that Lilith enjoyed. The
+repetitive actions allowed her to turn her mind off for a few hours as
+she sorted everything into its proper category and signed the occasional
+document. After she’d gotten through the first few papers, Lilith slowly
+got more into the zone, tuning out the outside world as she worked. That
+was until she was staring at a report that numerous students and faculty
+at St. Epiderm had been attacked by an unknown assailant and left
+without magic. Maybe the historical record surrounding basilisks was
+accurate after all, because Lilith had an idea of who she thought the
+culprit was.</p>
+<p>A knock at the door drew the witch’s attention. Barely picking her
+feet up off the ground, she shuffled over to the door to see who was
+willing to pester her at such a late hour. If they were willing to
+bother the leader of the Emperor’s Coven when it was nearing midnight,
+then they were clearly also willing to part ways with their post in the
+coven. Opening the door revealed that it was Kikimora who was standing
+on the other side. Great, one of the two people Lilith couldn’t fire.
+(The other being that obnoxious Golden Brat, and Lilith was about 90%
+sure the current Golden Guard had gotten their position solely on the
+fact that they were related to the previous Guard.)</p>
+<p>“What do you want?” Lilith snapped, hoping to get this interaction
+over with as quickly as possible.</p>
+<p>“Emperor Belos has requested an audience with you. I suggest you not
+keep him waiting,” the demon said in that grating voice of hers.</p>
+<p>Throwing on her cloak, Lilith forced her way past Kikimora and began
+walking to Lord Belos’ chamber.</p>
+<p>“Oh, and one more thing,” Kikimora called out.</p>
+<p>“What?” Lilith turned around, an annoyed look on her face.</p>
+<p>“Don’t think that your little escapade off to the library didn’t go
+unnoticed. Now hurry along. The Emperor is not a patient man.”</p>
+<hr />
+<p><strong>Zorntag 2, Sixth Lunar Disappearance, 50 CE | The
+Knee</strong></p>
+<p>Luz shivered and wrapped her arms around herself in a sort of
+self-hug, doing her best to conserve warmth. This coat was <em>not</em>
+helping. Blowing into her hands, she tried to warm them up to no avail.
+She was starting to doubt whether she was really warm-blooded, because
+this place was capital C Cold.</p>
+<p>The trek up the mountainous terrain had not been kind to the
+basilisk. She really wished she had a thick layer of fur like that giant
+Abominable Snowman looking thing she’d passed by on the way up. What had
+Eda called it? “Slitherbeast” or something along those lines? Luz wasn’t
+really paying attention to Eda’s impromptu lesson at the time, instead
+being more focused on not freezing to death.</p>
+<p>“Are you sure that you’re good, kiddo?” Eda asked. She had tagged
+along with Luz, claiming that she “didn’t want to see her kid get turned
+into a Popsicle” and that the basilisk needed adult supervision.</p>
+<p>“Never better!” Luz said with a fake smile, giving a weak thumbs
+up.</p>
+<p>“We can set up a fire if you want,” Amity supplied. “That is one of
+the spells I’m learning, after all.”</p>
+<p>“Yeah, that’d be nice,” Luz replied through chattering teeth.</p>
+<p>“We can go get some firewood,” Ed and Em said at the time.</p>
+<p>“You can give that fire spell a shot while we’re out,” Edric
+mentioned to Amity before he and his twin disappeared off into the
+woods.</p>
+<p>Once the two were out of earshot, Luz turned to the remaining Blight
+sibling. “Do they… know?”</p>
+<p>“Know what, exactly?” Amity replied, a look of confusion on her
+face.</p>
+<p>“About me being, ya know, scaly?” Luz explained, hoping the
+emerald-haired witch would get the implied message.</p>
+<p>“Oh, uh, no. I haven’t told them,” Amity said. “Unless you want me
+to, that is.”</p>
+<p>“I’d rather you not,” Luz responded. The less people who knew about
+her true nature, the better. “I wanna keep it on a need to know basis.
+Guess I’ll have to keep the witch disguise for the next few hours,
+then.”</p>
+<p>“That’s reasonable,” Amity stated before changing the topic away from
+Luz’s heritage. “So, what spells are you going to be performing for your
+placement exam? I know you’ve got that light spell, but you need at
+least two to get out of the baby classes.”</p>
+<p>Luz gasped. “I never showed you the plant glyph!” Reaching into her
+pocket, she pulled out her notepad and a tiny pencil. Quickly sketching
+out the glyph, Luz tapped it, and out of the piece of paper sprung a
+small gardenia flower. Plucking it by the stem, Luz offered the flower
+out to Amity.</p>
+<p>“Boom, plant spell!” the basilisk said with a smile.</p>
+<p>Taking the flower, Amity examined it. “That’s amazing. Thank you,
+Luz.” Tucking the flower behind her ear, the witch brushed her hair back
+so that the gardenia was more clearly visible.</p>
+<p>“How do I look?” Amity then asked, striking a pose for the
+basilisk.</p>
+<p>Luz laughed. “You look like you just stepped out of a magazine that
+sells winter gear.”</p>
+<p>“I hope that’s a good thing,” Amity replied.</p>
+<p>“Hey, we didn’t come here for a fashion show, you two!” Eda
+interjected. “We’re here to train, not galavant around in the snow.”</p>
+<p>“I guess we probably should start training,” Amity admitted. “Don’t
+want to be out here in the cold for nothing.”</p>
+<p>“What spell did you say you wanted to work on, Blight? A fireball or
+somethin’?” Eda asked.</p>
+<p>“Fireball, yeah. I can’t even summon one with a training wand,
+though,” Amity replied, clearly exasperated.</p>
+<p>“Well that can’t be right,” Eda said. “Any witch your age should be
+able to cast a basic elemental spell. Lemme see the wand.”</p>
+<p>Reaching into her back pocket, Amity pulled out a smooth wooden stick
+with what looked like a power gauge attached to it. Handing the wand
+over to Eda, the Owl Lady examined it.</p>
+<p>“This thing’s in perfect condition,” Eda stated before handing the
+wand back to its owner. “It is charged, right?”</p>
+<p>“Of course. I made sure to charge it all night,” Amity replied.</p>
+<p>“Hmm…” Eda tapped at her chin, thinking. “Well, if the wand ain’t the
+issue, then I’m pretty sure how you’re using it is the problem. How do
+you try to cast spells with it?”</p>
+<p>“I try to cast them like I would an actual spell circle,” Amity said
+slowly. “Is that not how you’re supposed to do it?”</p>
+<p>“No,” Eda responded flatly, “and that’s where your issue comes from.
+When you cast magic with a spell circle, you have to focus that magic
+from your bile sac to your finger and out. Training wands, on the other
+hand, already have the magic primed and ready to go, so you just have to
+point it in the right direction and hope you don’t blow anything
+up.”</p>
+<p>“So I’m basically asking the wand to do too much and then it doesn’t
+know what to do?” Amity hoped for clarification.</p>
+<p>“Basically,” Eda said. “Now try to cast a fireball spell, but don’t
+overthink it this time.”</p>
+<p>“Alright,” Amity said hopefully. “I can do this.” Taking a deep
+breath, the youngest Blight aimed her wand at a patch of snow. With a
+quick flick of the wrist, a small fireball formed at the edge of the
+wand and waited to be released.</p>
+<p>Staring at the fireball, Amity cracked a smile. “Yes! Wooh!” Jabbing
+the wand forward, she sent the fireball screaming towards the snow bank,
+where it melted a hole straight through the pile, only to be filled in
+when the pile collapsed in on itself.</p>
+<p>“Yeah! Go Amity!” Luz cheered, happy to see her friend happy.</p>
+<p>“Good job, Blight,” Eda congratulated the other witch. “Now how hard
+was that?”</p>
+<p>“What’s all the yelling about?” Edric asked as he and Emira returned.
+Ed had his arms full of chopped up logs, while Emira carried a bundle of
+kindling in one hand with a bag of tinder in the other.</p>
+<p>“I got the fire spell to work!” Amity said proudly.</p>
+<p>“Oh, nice. Good job, Mittens,” Emira congratulated her sister on the
+accomplishment.</p>
+<p>“Alright, let’s get this fire started, then,” Eda said. “I’m freezing
+my tail feathers off over here.”</p>
+<p>“You have tail feathers?” Edric asked, confused by the
+expression.</p>
+<p>“Yes, I really do have tail feathers,” Eda replied in a deadpan
+voice. “No, I’m just cold. Did any of you richy-riches bring a fire
+pit?”</p>
+<p>“No,” Emira said. “Mom said they were a waste of money.”</p>
+<p>Eda sighed and rubbed at her forehead. “Of course she did. Looks like
+we’re doing this the hard way, then. Ready for a survival lesson?”</p>
+<p>Clapping her hands together and rubbing them, the Owl Lady then
+started scooping out the snow with her hands. Eventually, the hole began
+to take on a square shape, and when it was completed, Eda patted the
+remaining snow down so that it was level.</p>
+<p>“Tinder,” she proclaimed, motioning for Emira to add it to the box,
+who complied. Eda bunched the small sticks and leaves until they were in
+a roughly circular shape.</p>
+<p>“Kindling.” The larger sticks were smushed together into a roughly
+cylindrical shape sticking out of the square. Holding the kindling in
+place, Eda moved onto the final step of constructing the fire.</p>
+<p>“Logs.” The first log was squished into the square and was soon
+joined by its companion on the other side of the kindling cylinder.
+Finally, the two other logs were placed atop the first two, laying
+criss-cross, acting as a sort of outline of the square.</p>
+<p>“That wasn’t hard, was it?” Eda said as she got to her feet.</p>
+<p>“Where’d you learn to do that?” Luz asked her mentor.</p>
+<p>“Human realm,” Eda replied concisely.</p>
+<p>“You gonna elaborate on that?” Luz followed up with.</p>
+<p>“Nope,” Eda said, popping the “p” emphatically.</p>
+<p>“Now come on, let’s light this sucker up,” Eda proclaimed. “Hey, Baby
+Blight, how bout you do the honors?”</p>
+<p>Stepping aside, Eda gave Amity the floor. Kneeling down in the snow,
+Amity pulled out her training wand and pointed it at a section of the
+tinder in the center of the pit. Summoning a tiny flame at the end of
+the wand, Amity attempted to light the tinder, but nothing happened.</p>
+<p>“Hmm, looks like the wood is still wet from the snow,” Eda noted,
+“Put some more magic into the flame and see if it’ll catch.”</p>
+<p>“You got it,” Amity replied. Willing the flame to grow bigger, she
+put it to the tinder once more, but the sticks still refused to
+light.</p>
+<p>“Come on, work with me here,” Amity said to the wand. The wand seemed
+to listen, as the flame grew far bigger, instantly lighting both the
+tinder and a chunk of the kindling.</p>
+<p>“Nice work, kid,” Eda praised the young witch. “Wanna see if you can
+get the logs going too? Speed up the process a lil’ bit, ya know?”</p>
+<p>“I guess I can give it a shot,” Amity replied. Pouring even more
+magic into the flame, it grew bigger still, now nearing the “that’s way
+too big to be safe” size, and Amity reacted accordingly. Falling on her
+behind in surprise, Amity launched the fireball off in a random
+direction so that she didn’t turn himself into roast witch.</p>
+<p>Luz watched as Amity’s fireball arced across the sky before dipping
+below the treeline and disappearing.</p>
+<p>“Think you might have put too much power into that one, Mittens,”
+Emira said, clapping a hand on her sister’s shoulder.</p>
+<p>“Well, uh, let’s hope that I didn’t hit anything,” Amity said,
+forcing a laugh.</p>
+<p>Suddenly, a roar echoed through the whole of the Knee, and a shadow
+fell across the camping party. Looking up, Luz saw a giant mass of white
+fur flying through the air, and it was headed right towards them.</p>
+<p>Landing with a loud <em>THUD</em> in front of the Blights, the
+slitherbeast roared, droplets of goo flying from its mouth and landing
+on their faces.</p>
+<p>“Oh Titan,” Amity squeaked.</p>
+<p>“Everyone scatter!” Eda yelled. Grabbing Luz’s hand and dragging the
+basilisk along, Eda dove to take cover behind a boulder.</p>
+<p>As Edric and Emira ran for the woods, Ed noticed that his younger
+sister wasn’t following. “Amity, come on!” he yelled.</p>
+<p>Amity stood frozen as the slitherbeast got closer. The smoking wand
+in her hand was a dead giveaway that she was the one who had woken the
+beast from its slumber. She wanted to run and join her siblings, but her
+legs refused to cooperate, keeping her rooted in place.</p>
+<p><em>I wonder what they’ll write on my tombstone</em>, Amity thought
+as she felt the slitherbeast wrap its paw around her waist. (The grip
+was lighter than she expected. Maybe the beast wanted to play with its
+food before eating her?)</p>
+<p>“HEY UGLY! LET HER GO!” Luz shouted, running from her place behind
+the boulder.</p>
+<p>“Luz, what are you doing?” Eda hissed.</p>
+<p>The slitherbeast slowly turned around as it faced the weird
+two-legged creature yelling at it.</p>
+<p>“YOU HEARD ME! LET GO OF MY FRIEND YOU BIG OAF!” Luz continued. She
+just needed to draw the slitherbeast a little bit closer and it’d be in
+range.</p>
+<p>The slitherbeast took slow, lumbering steps as it stomped towards the
+two-legger. Once the tiny creature was within arm’s reach, the
+slitherbeast swiped to grab at the annoying pest, only for it to dive
+out of the way and open its mouth.</p>
+<p>As Luz drained the slitherbeast of its magic, she hoped that it
+wouldn’t have enough energy to fight back, because if it did then she
+was as good as squashed. Fortunately, luck was on her side, and the
+slitherbeast fell to its knees before eventually face-planting in the
+snow. Unfortunately, Amity also ended up with a faceful of snow as a
+result, but Luz hoped that the snow would also cushion the witch’s fall.
+After a few seconds of waiting to see if the slitherbeast was truly
+unconscious, Luz dashed over to her fallen friend.</p>
+<p>“Amity! Amity, are you okay?” Luz asked as she helped the girl get to
+her feet.</p>
+<p>“I’m… I’m fine,” Amity replied after a pause to gather her bearings.
+“Just a little shaken up, that’s all.”</p>
+<p>As Luz checked her friend for any injuries, she couldn’t help but
+feel that something was off, but she couldn’t quite place what exactly.
+When Amity whipped her head back and forth to shake the snow free from
+her hair, only then did Luz realize what was missing: Amity’s
+flower.</p>
+<p>Luz gasped. “Where did the flower go?!”</p>
+<p>Amity was confused. “Luz, it’s fine. I don’t –”</p>
+<p>“I’m finding that flower!” Luz proclaimed.</p>
+<p>Scouring the surroundings, the basilisk searched for the gardenia,
+cursing the fact that it was a white flower hidden on a backdrop of
+white snow.</p>
+<p>“Hey, uh, Mittens?” Emira slowly approached her sister. “Were you
+ever gonna tell us that your friend can… do whatever that was?”</p>
+<p>“Not really,” Amity said, fidgeting, trying to figure out how much
+she should divulge about Luz’s true nature. “That’s more for Luz to
+decide.”</p>
+<p>“Yeah,” Eda chimed in. “Luz’s powers are none of your beeswax. If she
+wants you to know, she’ll tell you.”</p>
+<p>“Oh my Titan, I found it!” Luz called out. Running up to Amity, the
+basilisk held the gardenia gently in her hand. Amity couldn’t help but
+notice that Luz was coated head to toe in snow, and Amity doubted that
+that could feel good.</p>
+<p>“Luz, you didn’t have to go through the trouble of finding me a silly
+flower,” Amity said.</p>
+<p>“But I wanted to,” Luz retorted. “You deserve the flower.”</p>
+<p>Getting closer to Amity, Luz brushed back the witch’s emerald locks
+and gently placed the flower back behind her ear.</p>
+<p>“See?” Luz gestured to nobody in particular. “Now the outfit’s
+perfect! The flower ties the whole thing together.”</p>
+<p>Off to the side, Eda saw how Amity looked when Luz got close to the
+young Blight, the subtle blush not slipping past the Owl Lady’s watchful
+eye.</p>
+<p><em>Oh, that kid’s got it bad.</em></p>
+<p>Deciding that it was time to run intervention before Amity melted
+into a puddle, Eda got everyone’s attention with a shout. “Anybody know
+what we should do with Big Ugly over here?” Summoning Owlbert, Eda poked
+at the sleeping (Well, <em>hopefully</em> sleeping.) slitherbeast with
+the butt of her staff to see if the thing was still alive. When the
+demon weakly batted at the staff, Eda let out a sigh of relief.</p>
+<p>“I vote that we just leave it be,” Luz offered.</p>
+<p>“I agree,” Amity said. “Just because it gave me a spook doesn’t mean
+we should… kill it.”</p>
+<p>“Alright, half the ballots have been cast,” Eda said. “Dweebus One,
+Dweebus Two? What do you guys think?”</p>
+<p>“Can I keep him?” Edric asked with a childlike expression.</p>
+<p>Everyone turned to stare at the teen.</p>
+<p>“What? He’s cute, and I want a pet!” Ed said, trying to argue his
+case.</p>
+<p>In response, Emira grabbed her brother by both shoulders and stared
+him in the eye. “Ed, I love you, but that is the stupidest idea I’ve
+ever heard.”</p>
+<p>Edric frowned. “Fine, no slitherbeast. How about a bat instead?”</p>
+<p>“No!”</p>
+</body>
+</html>
