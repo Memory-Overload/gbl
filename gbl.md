@@ -2,13 +2,14 @@
 title: \href{https://archiveofourown.org/works/43706922/chapters/109904142}{The Good Basilisk Luzura}
 author:
   - \href{https://archiveofourown.org/users/MemoryOverload/}{MemoryOverload}
-date: Current as of \today
+date: Began December 19, 2022 | Updated \today
 documentclass: book
 fontsize: 11pt
 pagestyle: plain # only shows page number
 thanks: "Please don't sue me, Dana."
 toc: true # adds Table of Contents
 numbersections: true # chapter header will say "Chapter 1" "Chapter 2" etc.
+subtitle: Season One
 ---
 
 # Prologue
